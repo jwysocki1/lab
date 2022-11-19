@@ -5,7 +5,7 @@ class Account:
     This class will be used to create accounts which are identified by a name and
     a balance, the balance is able to change.
     '''
-    def __init__(self, name: str, balance: int =0) -> None:
+    def __init__(self, name: str, balance: float or int =0) -> None:
         '''
         Used to identify an account.
         :param name: The name of the person who owns the account.
