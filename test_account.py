@@ -3,9 +3,9 @@ from account import *
 
 class Test:
     def setup_method(self):
-        self.account1 = Account(Nathan)
-        self.account2 = Account(Bronny, 100)
-        self.account3 = Account(Jasmine, 500.75)
+        self.account1 = Account('Nathan')
+        self.account2 = Account('Bronny', 100)
+        self.account3 = Account('Jasmine', 500.75)
 
     def teardown_method(self):
         del self.account1
